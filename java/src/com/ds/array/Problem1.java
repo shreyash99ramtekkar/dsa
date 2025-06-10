@@ -56,9 +56,6 @@ public class Problem1 {
 	
 	//Solution 2
 	public static int fetch(int[]arr, int pos) {
-		if(pos > arr.length)
-			System.out.println("Pos value cannot be greater than array Length.");
-			return;
 		return arr[pos-1];
 	}
 
