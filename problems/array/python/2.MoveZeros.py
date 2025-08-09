@@ -25,7 +25,7 @@ def pushZerosToEnd(arr):
         return arr
     
     while(True):
-        if j == len(arr)-1:
+        if j == len(arr):
             if swapped == False:
                 break
             swapped = False
@@ -40,4 +40,4 @@ def pushZerosToEnd(arr):
     return arr
 
 
-print(pushZerosToEnd([3, 5, 4, 0, 0]))
+print(pushZerosToEnd([3, 5, 0, 0, 4]))
