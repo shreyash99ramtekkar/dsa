@@ -18,11 +18,11 @@ import java.util.Arrays;
 // Constraints:
 // 1 ≤ arr.size() ≤ 105
 // 0 ≤ arr[i] ≤ 105
-public class ReverseArray {
+public class ReverseArray3 {
 
     public static void main(String[] args) {
         int[] arr  = new int[] {1, 4, 3, 2, 6, 5};
-        ReverseArray reverseArray = new ReverseArray();
+        ReverseArray3 reverseArray = new ReverseArray3();
         System.out.println(Arrays.toString(reverseArray.reverseArray(arr,0,arr.length-1)));
         
     }
